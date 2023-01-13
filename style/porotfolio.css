@@ -175,19 +175,19 @@ input {
 }
 
 @media screen and (max-width: 576px) {
-  /* what i do section styles */
+  /* what i do section styles responsive */
   .skills-container {
     flex-direction: column;
     padding: 10px 20px;
     gap: 20px;
   }
-  /* resume section styles */
+  /* resume section styles responsive */
   .resume-content {
     flex-direction: column;
     padding: 10px 20px;
     gap: 20px;
   }
-  /* about section styles */
+  /* about section styles responsive */
   .about-info-container {
     flex-direction: column;
     padding: 10px 20px;
@@ -196,7 +196,7 @@ input {
   .about {
     padding: 20px;
   }
-  /* contact section styles */
+  /* contact section styles responsive */
   .contact {
     flex-direction: column;
     padding: 10px 20px;
@@ -207,11 +207,11 @@ input {
   textarea {
     padding: 0px 0px 0px 5px;
   }
-  /* header section styles */
+  /* header section styles responsive */
   .header {
     background-image: none;
   }
-  /* banner section styles */
+  /* banner section styles responsive */
   .banner {
     flex-direction: column;
     padding: 10px 20px;
@@ -236,11 +236,11 @@ input {
   }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
-  /* about section styles */
+  /* about section styles responsive */
   .about {
     padding: 20px;
   }
-  /* contact section style */
+  /* contact section styles responsive */
   .contact {
     flex-direction: column;
     padding: 20px;
@@ -250,11 +250,11 @@ input {
   textarea {
     padding: 0px 0px 0px 5px;
   }
-  /* resume section styles */
+  /* resume section styles responsive */
   .resume-content {
     padding: 0 10px 0 10px;
   }
-  /* banner section styles */
+  /* banner section styles responsive */
   .banner {
     flex-direction: column;
   }
